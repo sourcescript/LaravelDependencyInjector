@@ -76,6 +76,35 @@ Here's an example of an API-centric controller which uses a better dependency in
 ```
 
 as you can see, even tho its a bit wee long, its cleaner and easier to recode and revamp, you won't have the hassle of editing all one by one.
+###Dependencies Available
+
+```php
+    <?php
+        $dependencies;
+
+        $dependencies->app();
+        $dependencies->auth();
+        $dependencies->cache();
+        $dependencies->config();
+        $dependencies->db();
+        $dependencies->event();
+        $dependencies->file();
+        $dependencies->form();
+        $dependencies->hash();
+        $dependencies->html();
+        $dependencies->input();
+        $dependencies->redirect();
+        $dependencies->response();
+        $dependencies->request();
+        $dependencies->session();
+        $dependencies->url();
+        $dependencies->validator();
+        $dependencies->view();
+
+```
+
+###Issue w/ Oveahead
+This application / library will not give much of an overhead to the current cache or memory needed by hte application since every requirement is lazy loaded by app. (see code)
 
 ###Future Fixes
 1. Artisan Task: For Creating New Dependencies

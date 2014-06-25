@@ -109,7 +109,7 @@ class DependencyHandler implements DependencyInterface
 	 */
 	public function input()
 	{
-		return $this->app->make('input');
+		return $this->app->make('request');
 	}
 	
 	/**
@@ -125,7 +125,7 @@ class DependencyHandler implements DependencyInterface
 	 */
 	public function response()
 	{
-		return $this->app->make('response');
+		return new Response;
 	}
 	
 	/**
