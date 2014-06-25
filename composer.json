@@ -1,0 +1,20 @@
+{
+    "name": "sourcescript/laravel-dependency-injector",
+    "description": "",
+    "authors": [
+        {
+            "name": "Gian Crescini Santillan",
+            "email": "gian@pupilr.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Sourcescript\\LaravelDependencyInjector": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
