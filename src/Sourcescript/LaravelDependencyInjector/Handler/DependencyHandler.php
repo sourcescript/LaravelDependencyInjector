@@ -2,6 +2,7 @@
 
 
 use Illuminate\Foundation\Application as App;
+use Illuminate\Support\Facades\Response;
 use Sourcescript\LaravelDependencyInjector\Interfaces\DependencyInterface;
 
 class DependencyHandler implements DependencyInterface
@@ -21,12 +22,12 @@ class DependencyHandler implements DependencyInterface
 
 	public function input()
 	{
-		return $this->app->make('input');
+		return $this->app->make('request');
 	}
 
 	public function response()
 	{
-		return $this->app->make('response');
+		return new Response;
 	}
 
 	public function validator()
