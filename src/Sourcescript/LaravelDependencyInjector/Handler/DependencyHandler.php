@@ -168,3 +168,4 @@ class DependencyHandler implements DependencyInterface
 		return $this->app->make('view');
 	}
 	
+}
