@@ -103,7 +103,7 @@ as you can see, even tho its a bit wee long, its cleaner and easier to recode an
 
 ```
 
-###Issue w/ Oveahead
+###Issue w/ Overahead
 This application / library will not give much of an overhead to the current cache or memory needed by hte application since every requirement is lazy loaded by app. (see code)
 
 ###Future Fixes
