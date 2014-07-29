@@ -37,7 +37,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function auth()
     {
-        return $this->app->make('auth');
+        return $this->app['auth'];
     }
     
     /**
@@ -45,7 +45,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function cache()
     {
-        return $this->app->make('cache');
+        return $this->app['cache'];
     }
     
     /**
@@ -53,7 +53,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function config()
     {
-        return $this->app->make('config');
+        return $this->app['config'];
     }
     
     /**
@@ -61,7 +61,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function db()
     {
-        return $this->app->make('db');
+        return $this->app['db'];
     }
     
     /**
@@ -69,7 +69,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function event()
     {
-        return $this->app->make('event');
+        return $this->app['event'];
     }
     
     /**
@@ -77,7 +77,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function file()
     {
-        return $this->app->make('file');
+        return $this->app['file'];
     }
     
     /**
@@ -85,7 +85,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function form()
     {
-        return $this->app->make('form');
+        return $this->app['form'];
     }
     
     /**
@@ -93,7 +93,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function hash()
     {
-        return $this->app->make('hash');
+        return $this->app['hash'];
     }
     
     /**
@@ -101,7 +101,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function html()
     {
-        return $this->app->make('html');
+        return $this->app['html'];
     }
     
     /**
@@ -109,7 +109,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function input()
     {
-        return $this->app->make('request');
+        return $this->app['request'];
     }
     
     /**
@@ -117,7 +117,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function redirect()
     {
-        return $this->app->make('redirect');
+        return $this->app['redirect'];
     }
     
     /**
@@ -133,7 +133,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function request()
     {
-        return $this->app->make('request');
+        return $this->app['request'];
     }
     
     /**
@@ -141,7 +141,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function session()
     {
-        return $this->app->make('session');
+        return $this->app['session'];
     }
     
     /**
@@ -149,7 +149,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function url()
     {
-        return $this->app->make('url');
+        return $this->app['url'];
     }
     
     /**
@@ -157,7 +157,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function validator()
     {
-        return $this->app->make('validator');
+        return $this->app['validator'];
     }
     
     /**
@@ -165,7 +165,7 @@ class DependencyHandler implements DependencyInterface
      */
     public function view()
     {
-        return $this->app->make('view');
+        return $this->app['view'];
     }
     
 }
