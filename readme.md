@@ -2,9 +2,9 @@
 
 
 ###Why? The Effort
-The hardet part of developing applications which should be scalable in Laravel4 is Dependency Injection. Usually, we always have that nuisance of using `Use \Config` or `Use \Response` on our applications. The big Problem there would be scalability.
+The hardet part of developing applications which should be scalable in Laravel4 is Dependency Injection. Usually, we always have that nuisance of using `Use \Config` or `Use \Response` on our applications. The big problem would be the impact of implementing this design pattern to development efficiency.
 
-Assuming Laravel 4 just ported and overhauled to a new framework, or imagine you, as a developer switched from using `sentry` to basic `auth`. What do you do? Scalability and Dependency is always the issue.
+Assuming Laravel 4 just ported and overhauled to a new framework, or imagine you, as a developer switched from using `sentry` to basic `auth`. What do you do? Efficiency and Dependency is always the issue.
 
 ###Version 0.0001
 Thanks to the other library, SocialConnect, and two big API-Centric applicaitons that I'm building, There's a big problem w/ dependencies. Now, It would be no issue.
